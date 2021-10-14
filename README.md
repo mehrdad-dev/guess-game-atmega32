@@ -1,2 +1,3 @@
-# guess-game-atmega32
-Guess Game using AT Mega32, Keypad &amp; LCD
+# Guess Game using AT Mega32, Keypad & LCD (Proteus, Code Vision AVR)
+
+Proteus:
