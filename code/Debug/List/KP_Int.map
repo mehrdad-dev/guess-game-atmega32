@@ -1,0 +1,53 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+buffer                                                                            0x0305       4
+num_holder                                                                        0x0309       4
+nuller                                                                            0x030D       4
+no_of_digits                                                                      0x0311       2
+rand_range                                                                        0x0313       2
+seed_time                                                                         0x0315       2
+num_counter                                                                       0x0317       2
+error                                                                             0x0319       4
+_base_y                                                                           0x031D       4
+_lcd_y                                                                            0x0321       1
+_lcd_maxx                                                                         0x0322       1
+_seed                                                                             0x0323       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+ch                                                                                R5           1
+new_game                                                                          R4           1
+active_session                                                                    R7           1
+target                                                                            R8,R9        2
+current_number                                                                    R10,R11      2
+num_index                                                                         R12,R13      2
+_lcd_x                                                                            R6           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ext_int2_isr                                                                      0x00103    314
+main                                                                              0x0023D    109
+_lcd_write_nibble_G100                                                            0x002AA     20
+_lcd_write_data                                                                   0x002BE     12
+lcd_gotoxy                                                                        0x002CA     15
+lcd_clear                                                                         0x002D9     13
+lcd_putchar                                                                       0x002E6     26
+lcd_puts                                                                          0x00300     17
+lcd_init                                                                          0x00311     46
+atoi                                                                              0x0033F     55
+srand                                                                             0x00376     10
+rand                                                                              0x00380     23
+put_buff_G102                                                                     0x00397     58
+_print_G102                                                                       0x003D1    308
+sprintf                                                                           0x00505     52
+strlen                                                                            0x00539     12
+strlenf                                                                           0x00545     13
+isdigit                                                                           0x00552      9
+isspace                                                                           0x0055B     11
