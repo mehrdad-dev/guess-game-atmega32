@@ -1,4 +1,4 @@
-# Guess Game using AT Mega32, Keypad & LCD (Proteus, Code Vision AVR)
+# Guess Game using ATMega32, Keypad & LCD (Proteus, Code Vision AVR)
 
 **Note:** Keypad is working with intrupt.
 
